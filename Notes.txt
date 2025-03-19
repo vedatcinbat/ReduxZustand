@@ -1,0 +1,99 @@
+1. **Redux Fundamentals Recap (Short & Clear)**  
+    - What is Redux and why do we use it?  
+
+    **Redux Core Concepts:**  
+    - Store  
+    - Actions  
+    - Reducers  
+    - State  
+    - Dispatch  
+    - Selectors  
+
+---
+
+2. **Project Setup**  
+    - Installing Redux-related libraries:  
+      - `@reduxjs/toolkit` (RTK)  
+      - `react-redux`  
+      - TypeScript types: `@types/react-redux`  
+    - Project folder structure suggestions  
+
+---
+
+3. **Create and Configure the Store**  
+    - How to create a store with `configureStore`  
+    - Store typing (`RootState`, `AppDispatch`)  
+
+---
+
+4. **Create a Basic Slice**  
+    - Creating a slice with `createSlice`  
+    - Writing reducers & actions inside slices  
+    - Initial state typing with TypeScript  
+
+---
+
+5. **Connecting Redux to React**  
+    - `<Provider>` setup  
+    - Accessing state with `useSelector` (with proper TypeScript types)  
+    - Dispatching actions with `useDispatch` (with proper typing)  
+
+---
+
+6. **Advanced Slice Usage**  
+    - Handling asynchronous logic with `createAsyncThunk`  
+    - `extraReducers` for async states (loading, error, success)  
+    - Managing loading states  
+
+---
+
+7. **Best Practices**  
+    - Slices per feature vs. global reducer files  
+    - Immutable updates with Immer (built into RTK)  
+    - How to keep your state normalized and clean  
+
+---
+
+8. **Custom Typed Hooks**  
+    - Create `useAppDispatch` and `useAppSelector` to avoid repeating type annotations  
+
+---
+
+9. **Middleware**  
+    - Intro to Redux Middleware  
+    - Example custom middleware for logging or analytics  
+
+---
+
+10. **Redux DevTools**  
+     - Enabling Redux DevTools for debugging  
+
+---
+
+11. **Redux Persist (Optional)**  
+     - How to persist Redux state in `localStorage`/`sessionStorage`  
+
+---
+
+12. **Working with Complex Nested State**  
+     - Updating deeply nested state in reducers  
+     - Normalizing state structures  
+
+---
+
+13. **Error Handling Patterns**  
+     - Error handling in reducers  
+     - Showing errors in the UI  
+
+---
+
+14. **Performance Optimization**  
+     - Using `React.memo` with Redux  
+     - Selector memoization with `reselect` or `createSelector` from RTK  
+
+---
+
+15. **Testing Redux**  
+     - Testing slices (reducers and actions)  
+     - Testing async thunks  
+     - Testing components that use Redux  
