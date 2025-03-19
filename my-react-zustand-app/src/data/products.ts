@@ -1,4 +1,3 @@
-// src/data/products.ts
 import { Product } from "../types/Product";
 
 export const products: Omit<Product, "quantity">[] = [

@@ -1,4 +1,3 @@
-// src/stores/useProductStore.ts
 import { create } from "zustand";
 import { Product } from "../types/Product";
 import { fetchProducts } from "../api/fetchProducts";

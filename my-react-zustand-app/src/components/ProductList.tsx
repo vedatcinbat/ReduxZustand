@@ -1,6 +1,4 @@
-// src/components/ProductList.tsx
 import React, { useEffect } from "react";
-import { products } from "../data/products";
 import { useCartStore } from "../store/useCartStore";
 import { useProductStore } from "../store/useProductStore";
 
