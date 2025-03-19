@@ -1,12 +1,13 @@
 import React from "react";
-import Counter from "./components/Counter";
+import ProductList from "./components/ProductList";
+import Cart from "./components/Cart";
 
 const App: React.FC = () => {
   return (
-    <>
-      <div>React | Zustand</div>
-      <Counter />
-    </>
+    <div style={{ display: "flex", gap: "40px" }}>
+      <ProductList />
+      <Cart />
+    </div>
   );
 };
 
