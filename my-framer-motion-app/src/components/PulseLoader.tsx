@@ -19,13 +19,13 @@ export default function PulseLoader() {
           }}
           transition={{
             repeat: Infinity,
-            duration: 0.8,
+            duration: 1,
             delay: i * 0.2,
           }}
           style={{
             width: 15,
             height: 15,
-            backgroundColor: "#4f46e5",
+            backgroundColor: "#7b2cb8",
             borderRadius: "50%",
           }}
         />

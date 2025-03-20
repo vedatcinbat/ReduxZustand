@@ -2,7 +2,14 @@ import { motion } from "framer-motion";
 
 export default function RotatingSquares() {
   return (
-    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: 100 }}>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: 100,
+      }}
+    >
       <motion.div
         animate={{ rotate: 360 }}
         transition={{ repeat: Infinity, duration: 2, ease: "linear" }}
